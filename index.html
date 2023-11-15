@@ -28,7 +28,26 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto.css">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -348,8 +367,8 @@ Rick Gilmore
 </section>
 <section class="slide level2">
 
-
-<img data-src="https://www.play-project.org/img/PLAY-logo.png" class="r-stretch"></section>
+<p><img data-src="https://www.play-project.org/img/PLAY-logo.png"> # About</p>
+</section>
 <section id="support" class="slide level2">
 <h2>Support</h2>
 <ul>
@@ -380,15 +399,26 @@ Rick Gilmore
 <li>Demonstrate data sharing at scale via <a href="https://databrary.org">Databrary</a></li>
 </ul>
 </section>
-<section id="status" class="slide level2">
-<h2>Status</h2>
-<ul>
-<li>Data collection in-process</li>
-</ul>
+<section>
+<section id="status" class="title-slide slide level1 center">
+<h1>Status</h1>
 
-<img data-src="https://play-behaviorome.github.io/KoBoToolbox/include/img/fig-screening-calls-time-series-1.png" class="r-stretch quarto-figure-center"><p class="caption">Time series of recruiting calls across PLAY sites</p></section>
-<section id="preliminary-results" class="slide level2">
-<h2>Preliminary Results</h2>
+</section>
+<section class="slide level2">
+
+
+<img data-src="https://play-behaviorome.github.io/KoBoToolbox/include/img/fig-screening-calls-time-series-1.png" class="r-stretch quarto-figure-center"><p class="caption">Time series of recruiting calls across PLAY sites</p></section></section>
+<section>
+<section id="preliminary-results" class="title-slide slide level1 center">
+<h1>Preliminary Results</h1>
+
+</section>
+<section class="slide level2">
+
+
+<img data-src="img/play-sharing-permission.png" class="r-stretch quarto-figure-center"><p class="caption">Data about sharing permission as of 2023-11-15 from <a href="https://play-behaviorome.github.io/KoBoToolbox/screening-visualizations.html#sharing-permission" class="uri">https://play-behaviorome.github.io/KoBoToolbox/screening-visualizations.html#sharing-permission</a></p></section>
+<section class="slide level2">
+
 
 <img data-src="https://play-behaviorome.github.io/KoBoToolbox/include/img/fig-walk-mos-kea-crawl-mos-1.png" class="r-stretch quarto-figure-center"><p class="caption">Crawling onset vs.&nbsp;walking onset</p></section>
 <section class="slide level2">
@@ -406,26 +436,38 @@ Rick Gilmore
 </ul>
 <p>Soska, K. C., Xu, M., Gonzalez, S. L., Herzberg, O., Tamis-LeMonda, C. S., Gilmore, R. O. &amp; Adolph, K. E. (2021). (Hyper)active data curation: A video case study from behavioral science. <em>Journal of Escience Librarianship</em>, <em>10</em>(3). <a href="https://doi.org/10.7191/jeslib.2021.1208" class="uri">https://doi.org/10.7191/jeslib.2021.1208</a></p>
 <ul>
-<li>Automate, automate, automate!</li>
+<li class="fragment">Automate, automate, automate!</li>
+<li class="fragment">Plan to share from the very beginning; <em>post hoc</em> is a pain</li>
+<li class="fragment">We could, and probably should, talk more</li>
+</ul>
+</section>
+<section id="proscons" class="slide level2">
+<h2>Pros/cons</h2>
+<ul>
+<li>Power
+<ul>
+<li><span class="citation" data-cites="Szucs2017-fc">(<a href="#/resources" role="doc-biblioref" onclick="">Szucs &amp; Ioannidis, 2017</a>)</span></li>
+<li><a href="https://rick-o-gilmore.shinyapps.io/apes" class="uri">https://rick-o-gilmore.shinyapps.io/apes</a></li>
+</ul></li>
+<li>Coordination at scale</li>
 </ul>
 </section>
 <section class="slide level2">
 
-<div class="cell">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="index_files/figure-revealjs/unnamed-chunk-1-1.png" width="960"></p>
-<figcaption>https://rogilmore.github.io/big-data-dev-sci</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<p><img src="https://www.play-project.org/img/PLAY-logo.png" class="slide-logo"></p>
-<div class="footer footer-default">
+
+<img data-src="index_files/figure-revealjs/unnamed-chunk-1-1.png" width="960" class="r-stretch quarto-figure-center"><p class="caption">https://rogilmore.github.io/big-data-dev-sci</p></section>
+<section id="resources" class="slide level2 smaller scrollable">
+<h2>Resources</h2>
+
+<img src="https://www.play-project.org/img/PLAY-logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
 <p>Big Data in Developmental Science: 2023-11-15</p>
 </div>
-</section>
+<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-Szucs2017-fc" class="csl-entry" role="listitem">
+Szucs, D., &amp; Ioannidis, J. P. A. (2017). Empirical assessment of published effect sizes and power in the recent cognitive neuroscience and psychology literature. <em>PLoS Biology</em>, <em>15</em>(3), e2000797. <a href="https://doi.org/10.1371/journal.pbio.2000797">https://doi.org/10.1371/journal.pbio.2000797</a>
+</div>
+</div>
+</section></section>
     </div>
   </div>
 

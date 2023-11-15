@@ -5,11 +5,14 @@ authors: ["Karen Adolph", "Catherine Tamis-Lemonda", "Rick Gilmore"]
 logo: https://www.play-project.org/img/PLAY-logo.png
 footer: "Big Data in Developmental Science: 2023-11-15"
 format: revealjs
+bibliography: refs.bib
+csl: apa.csl
 ---
 
 ---
 
 ![](https://www.play-project.org/img/PLAY-logo.png)
+# About
 
 ## Support
 
@@ -35,13 +38,19 @@ format: revealjs
 - Create valuable video corpus of natural behavior
 - Demonstrate data sharing at scale via [Databrary](https://databrary.org)
 
-## Status
+# Status
 
-- Data collection in-process
+---
 
 ![Time series of recruiting calls across PLAY sites](https://play-behaviorome.github.io/KoBoToolbox/include/img/fig-screening-calls-time-series-1.png)
 
-## Preliminary Results
+# Preliminary Results
+
+---
+
+![Data about sharing permission as of 2023-11-15 from <https://play-behaviorome.github.io/KoBoToolbox/screening-visualizations.html#sharing-permission>](img/play-sharing-permission.png)
+
+---
 
 ![Crawling onset vs. walking onset](https://play-behaviorome.github.io/KoBoToolbox/include/img/fig-walk-mos-kea-crawl-mos-1.png)
 
@@ -59,11 +68,23 @@ format: revealjs
 
 Soska, K. C., Xu, M., Gonzalez, S. L., Herzberg, O., Tamis-LeMonda, C. S., Gilmore, R. O. & Adolph, K. E. (2021). (Hyper)active data curation: A video case study from behavioral science. *Journal of Escience Librarianship*, *10*(3). <https://doi.org/10.7191/jeslib.2021.1208>
 
-- Automate, automate, automate!
+>- Automate, automate, automate!
+>- Plan to share from the very beginning; *post hoc* is a pain
+>- We could, and probably should, talk more
+
+## Pros/cons
+
+- Power
+  - [@Szucs2017-fc]
+  - <https://rick-o-gilmore.shinyapps.io/apes>
+- Coordination at scale
 
 ---
 
 ```{r, fig.cap="https://rogilmore.github.io/big-data-dev-sci"}
 plot(qrcode::qr_code("https://rogilmore.github.io/big-data-dev-sci"))
 ```
+
+## Resources
+
 
