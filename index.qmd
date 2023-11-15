@@ -1,0 +1,69 @@
+---
+title: "Play & Learning Across a Year (PLAY)"
+subtitle: <https://play-project.org>
+authors: ["Karen Adolph", "Catherine Tamis-Lemonda", "Rick Gilmore"]
+logo: https://www.play-project.org/img/PLAY-logo.png
+footer: "Big Data in Developmental Science: 2023-11-15"
+format: revealjs
+---
+
+---
+
+![](https://www.play-project.org/img/PLAY-logo.png)
+
+## Support
+
+- Office of the Director, National Institutes of Health, (OD), Eunice Kennedy Shriver National Institute for Child Health and Human Development (NICHD), the National Institute of Mental Health (NIMH), and the National Institute on Drug Abuse (NIDA) under R01HD094830-01
+- LEGO Foundation
+- Alfred P. Sloan Foundation.
+
+## What
+
+- $n=1,000$ mother-infant dyads, 12-, 18-, 24-mo-olds
+- 1 hour of natural behavior recorded on video
+- Full transcripts
+- Video tour of home
+- Video-recorded [survey/interviews](https://play-behaviorome.github.io/KoBoToolbox/)
+- Audio recordings of ambient sound
+
+## Where
+
+![](https://www.play-project.org/img/PLAY-sites.png)
+
+## Aims
+
+- Create valuable video corpus of natural behavior
+- Demonstrate data sharing at scale via [Databrary](https://databrary.org)
+
+## Status
+
+- Data collection in-process
+
+![Time series of recruiting calls across PLAY sites](https://play-behaviorome.github.io/KoBoToolbox/include/img/fig-screening-calls-time-series-1.png)
+
+## Preliminary Results
+
+![Crawling onset vs. walking onset](https://play-behaviorome.github.io/KoBoToolbox/include/img/fig-walk-mos-kea-crawl-mos-1.png)
+
+---
+
+![Patient Health Questionnaire (PHQ)](https://play-behaviorome.github.io/KoBoToolbox/include/img/fig-phq4-1.png)
+
+---
+
+![ECBQ very short](https://play-behaviorome.github.io/KoBoToolbox/include/img/purrr-map-ecbq-figs-1.png)
+
+## Insights
+
+- QA, QA, QA! Curate as you go!
+
+Soska, K. C., Xu, M., Gonzalez, S. L., Herzberg, O., Tamis-LeMonda, C. S., Gilmore, R. O. & Adolph, K. E. (2021). (Hyper)active data curation: A video case study from behavioral science. *Journal of Escience Librarianship*, *10*(3). <https://doi.org/10.7191/jeslib.2021.1208>
+
+- Automate, automate, automate!
+
+---
+
+```{r, fig.cap="https://rogilmore.github.io/big-data-dev-sci"}
+plot(qrcode::qr_code("https://rogilmore.github.io/big-data-dev-sci"))
+```
+
