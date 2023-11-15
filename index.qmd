@@ -77,7 +77,8 @@ Soska, K. C., Xu, M., Gonzalez, S. L., Herzberg, O., Tamis-LeMonda, C. S., Gilmo
 - Power
   - [@Szucs2017-fc]
   - <https://rick-o-gilmore.shinyapps.io/apes>
-- Coordination at scale
+>- Coordination at scale
+>- Methodological diversity vs. consistency
 
 ---
 
